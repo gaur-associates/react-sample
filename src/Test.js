@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.scss";
 
 class Test extends Component {
   render() {
-    return (
-      <h3 >
-        {this.props.name}
-      </h3>
-    );
+    return <h3>{this.props.name}</h3>;
   }
 }
 
