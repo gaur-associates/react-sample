@@ -1,28 +1,28 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
-    align-items: start;
-    grid-template-areas: "all all all" 
-    "left middle right";
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  grid-gap: 1em;
+  align-items: center;
+  justify-items: center;
 }
 
 #one {
-    color: blue;
-    grid-area: left;
+  color: blue;
 }
 
 #two {
-    color: red;
-    grid-area: middle;
+  color: red;
 }
 
 #three {
-    color: green;
-    grid-area: right;
+  color: green;
 }
 
 #four {
-    color: black;
-    grid-area: all;
+  color: black;
+}
+
+.home {
+}
+.carnival {
 }
